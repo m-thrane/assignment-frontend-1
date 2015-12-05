@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,100);
+
+body{
+
+	background: -webkit-linear-gradient(left, #aae6da, #51c5ec); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #aae6da, #51c5ec); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #aae6da, #51c5ec); /* For Firefox 3.6 to 15 */  
+	background: linear-gradient(to right, #aae6da, #51c5ec); /* Standard syntax */
+
+	font-family: 'Josefin Sans', sans-serif;
+
+	color: #fff;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+p{
+	font-size: 14px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.container{
+			width: 500px;
+			height: 500px;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 250px;
+			margin-bottom: auto;
+}
+
+input{
+			font-size: 12px;
+			color: #fff;
+            padding: 13px;
+            border-radius: 3px;
+            border: 0px solid;
+            background-color: rgba(255,255,255,0.4);
+            width: 300px;}
+
+input:hover{
+	background-color: rgba(255,255,255,0.7);
+	color: #000;
+}
+
+input[type=submit]{
+			background-color: rgba(100,100,100,0.4);
+			color: #fff;
+			width: 70px;
+			border-radius: 3px;
+			border: 0px solid;
+			padding: 7px;
+			cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: rgba(150, 150, 150, 1);
+}
